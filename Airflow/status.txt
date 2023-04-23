@@ -1,0 +1,3 @@
+Habría que cambiar los paths de la data que toma como input
+Hay que ver como hacemos para que el output sea aglomerativo
+Hay que verificar las configuraciones del airflow.cfg
