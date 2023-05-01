@@ -7,9 +7,8 @@ import logging
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
-import psycopg2 # Ésto nos va a servir para insertar los resultados en la base de datos
 
-# Definimos argumentos para el airflow
+# Definimos argumentos
 default_args = {
     'owner':'airflow',
     'depends_on_past': False,
@@ -19,51 +18,22 @@ default_args = {
     'retry_delay': timedelta(minutes = 1)
 }
 
-# Definimos el cliente para poder conectarnos con S3, donde tenemos las bases cargadas
-import boto3
-import config
-MY_API_KEY = config.MY_API_KEY
-MY_SECRET_KEY = config.MY_SECRET_KEY
-
-# Definimos el engine para lo que sería la base de datos RDS
-USUARIO_POSTGRES = config.MY_API_KEY
-CONTRASENA_POSTGRES = config.CONTRASENA_POSTGRES
-DATABASE_POSTGRES = config.DATABASE_POSTGRES
-HOST_POSTGRES = config.HOST_POSTGRES
-PUERTO_POSTGRES = config.PUERTO_POSTGRES
-
-# Configuramos el engine
-engine = psycopg2.connect(
-    database = DATABASE_POSTGRES,
-    user = USUARIO_POSTGRES,
-    password = CONTRASENA_POSTGRES,
-    host = HOST_POSTGRES,
-    port = PUERTO_POSTGRES
-)
-
-# Creamos el cursor
-cursor = engine.cursor()
-
-
 # Definimos funciones que guarden la info de los logs
 def FiltrarDatos():
     # Definimos usuarios inactivos
-    obj1 = s3.get_object(Bucket = 'bases-fer2', Key = 'advertiser_ids')
-    usuarios = pd.read_csv(obj1['Body'])
+    usuarios = pd.read_csv('/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/TP/advertiser_ids')
     usuarios_inactivos = usuarios.tail(5)['advertiser_id'].to_list()
 
     # Definimos período de tiempo
     yesterday = (datetime.date.today() - timedelta(days=1)).strftime("%Y-%m-%d")
 
     # Filtramos los logs para el modelo de CTR
-    obj2 = s3.get_object(Bucket = 'bases-fer2', Key = 'ads_views')
-    total_logs = pd.read_csv(obj2['Body'])
+    total_logs = pd.read_csv('/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/TP/ads_views')
     datos_filtrados1 = total_logs[(~total_logs['advertiser_id'].isin(usuarios_inactivos)) &
                                   (total_logs['date'] == yesterday)]
     
     # Filtramos los logs para el modelo de TopProduct
-    obj3 = s3.get_object(Bucket = 'bases-fer2', Key = 'product_views')
-    total_products = pd.read_csv(obj3['Body'])
+    total_products = pd.read_csv('/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/TP/product_views')
     datos_filtrados2 = total_products[(~total_products['advertiser_id'].isin(usuarios_inactivos)) &
                                       (total_products['date'] == yesterday)]
 
@@ -128,28 +98,18 @@ def DBWriting(**kwargs):
     
     # Covertimos la data filtrada en un dataframe
     resultados_top_ctr = pd.DataFrame.from_dict(resultados_top_ctr)
-    resultados_top_ctr = resultados_top_ctr.values.tolist()
 
     # Guardamos la data para el modelo de TopCTR
-    query_creacion_tabla_top_ctr = 'CREATE TABLE IF NOT EXISTS resultados_top_ctr ( log TIMESTAMP, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
-    cursor.execute(query_creacion_tabla_top_ctr)
-    
-    query_resultados_tabla_top_ctr = 'INSERT INTO resultados_top_ctr VALUES (%s, %s, %s)'
-    cursor.executemany(query_resultados_tabla_top_ctr, resultados_top_ctr)
+    resultados_top_ctr.to_csv('/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/TP/resultados_top_ctr.csv', index = False, header = True)
     
     # Recuperamos los resultados de TopProduct
     resultados_top_product = kwargs['ti'].xcom_pull(task_ids = 'TopProduct')
     
     # Covertimos la data filtrada en un dataframe
     resultados_top_product = pd.DataFrame.from_dict(resultados_top_product)
-    resultados_top_product = resultados_top_product.values.tolist()
     
     # Guardamos al data filtrada
-    query_creacion_tabla_top_product = 'CREATE TABLE IF NOT EXISTS resultados_top_product ( log TIMESTAMP, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
-    cursor.execute(query_creacion_tabla_top_product)
-
-    query_resultados_tabla_top_product = 'INSERT INTO resultados_top_product VALUES (%s, %s, %s)'
-    cursor.executemany(query_resultados_tabla_top_product, resultados_top_product)
+    resultados_top_product.to_csv('/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/TP/resultados_top_product.csv', index = False)
 
 # Definimos nuestro DAG
 with DAG(
@@ -167,4 +127,3 @@ with DAG(
 
 # Las preferencias no van identadas dentro del DAG
 filtrado_task >> [top_ctr_task,top_product_task] >> escritura_task
-
