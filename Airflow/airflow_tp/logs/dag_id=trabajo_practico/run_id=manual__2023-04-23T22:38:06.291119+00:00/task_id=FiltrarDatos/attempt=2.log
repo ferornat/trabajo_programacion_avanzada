@@ -1,0 +1,76 @@
+[2023-04-23T19:39:10.408-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: trabajo_practico.FiltrarDatos manual__2023-04-23T22:38:06.291119+00:00 [queued]>
+[2023-04-23T19:39:10.411-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: trabajo_practico.FiltrarDatos manual__2023-04-23T22:38:06.291119+00:00 [queued]>
+[2023-04-23T19:39:10.411-0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T19:39:10.411-0300] {taskinstance.py:1289} INFO - Starting attempt 2 of 2
+[2023-04-23T19:39:10.411-0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T19:39:10.425-0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): FiltrarDatos> on 2023-04-23 22:38:06.291119+00:00
+[2023-04-23T19:39:10.428-0300] {standard_task_runner.py:55} INFO - Started process 38848 to run task
+[2023-04-23T19:39:10.429-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'trabajo_practico', 'FiltrarDatos', 'manual__2023-04-23T22:38:06.291119+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/dag_tp.py', '--cfg-path', '/tmp/tmpqubujqu4']
+[2023-04-23T19:39:10.430-0300] {standard_task_runner.py:83} INFO - Job 71: Subtask FiltrarDatos
+[2023-04-23T19:39:10.463-0300] {task_command.py:389} INFO - Running <TaskInstance: trabajo_practico.FiltrarDatos manual__2023-04-23T22:38:06.291119+00:00 [running]> on host pepino-ThinkPad-E15-Gen-2
+[2023-04-23T19:39:10.552-0300] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=trabajo_practico
+AIRFLOW_CTX_TASK_ID=FiltrarDatos
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-23T22:38:06.291119+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-23T22:38:06.291119+00:00
+[2023-04-23T19:39:10.620-0300] {python.py:177} INFO - Done. Returned value was: (              advertiser_id product_id        type        date
+35020  LW045DVYSGRD75TK6U54     ns6tzn  impression  2023-04-22
+35021  L6WM4665XZVS9MCZRTVI     6jxm1s  impression  2023-04-22
+35022  M0LU6DCI1WILGQBZ6808     z4xlup  impression  2023-04-22
+35023  9Z77N44VDW6KX6VBWJ4X     n278ml  impression  2023-04-22
+35024  8C88YB6E8YCGWU07HA7A     2a0ckb  impression  2023-04-22
+...                     ...        ...         ...         ...
+36679  KD9PHCBGYFBRI9ET1O9R     65hgvy  impression  2023-04-22
+36680  IDOFCO721HTJGDH7332G     a5axui  impression  2023-04-22
+36681  M0LU6DCI1WILGQBZ6808     12gijx  impression  2023-04-22
+36682  AK81O7W3KGPEN8LABG2N     n04sl2       click  2023-04-22
+36683  8C88YB6E8YCGWU07HA7A     2ehbaj  impression  2023-04-22
+
+[1335 rows x 4 columns],               advertiser_id product_id        date
+35275  IOBPI63RBJIHI5FB7U9O     nkw4d0  2023-04-22
+35276  1OW4LWJSBJK6E1D9FDH7     r34a4w  2023-04-22
+35277  5E325T5HYL61QSABVR5V     asrduk  2023-04-22
+35278  IOBPI63RBJIHI5FB7U9O     445jwt  2023-04-22
+35279  9Z77N44VDW6KX6VBWJ4X     1jv8ck  2023-04-22
+...                     ...        ...         ...
+36896  5E325T5HYL61QSABVR5V     rlrndy  2023-04-22
+36897  HC26ZE93SA4WWA0BRFM6     q2fwzj  2023-04-22
+36898  1OW4LWJSBJK6E1D9FDH7     7syybu  2023-04-22
+36900  AK81O7W3KGPEN8LABG2N     4ilgyf  2023-04-22
+36901  IDOFCO721HTJGDH7332G     gnglwo  2023-04-22
+
+[1300 rows x 3 columns])
+[2023-04-23T19:39:10.628-0300] {xcom.py:629} ERROR - Object of type DataFrame is not JSON serializable. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your airflow config or make sure to decorate your object with attr.
+[2023-04-23T19:39:10.628-0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2298, in xcom_push
+    XCom.set(
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/xcom.py", line 234, in set
+    value = cls.serialize_value(
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/xcom.py", line 627, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/json.py", line 176, in encode
+    return super().encode(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/json.py", line 170, in default
+    return super().default(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2023-04-23T19:39:10.630-0300] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=trabajo_practico, task_id=FiltrarDatos, execution_date=20230423T223806, start_date=20230423T223910, end_date=20230423T223910
+[2023-04-23T19:39:10.652-0300] {standard_task_runner.py:100} ERROR - Failed to execute job 71 for task FiltrarDatos (Object of type DataFrame is not JSON serializable; 38848)
+[2023-04-23T19:39:10.682-0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-23T19:39:10.703-0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

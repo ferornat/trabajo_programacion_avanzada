@@ -1,0 +1,18 @@
+[2023-04-17T08:50:22.912-0300] {processor.py:153} INFO - Started process (PID=80534) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:50:22.913-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-04-17T08:50:22.914-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:22.914-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:50:22.933-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:50:23.073-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.072-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-04-17T08:50:23.090-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.090-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-04-17T08:50:23.106-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.106-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-04-17T08:50:23.106-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.106-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-17T08:50:23.116-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.116-0300] {dag.py:2726} INFO - Creating ORM DAG for example_xcom
+[2023-04-17T08:50:23.122-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:23.122-0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-04-17T08:50:23.157-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.249 seconds
+[2023-04-17T08:52:17.812-0300] {processor.py:153} INFO - Started process (PID=80738) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:52:17.814-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-04-17T08:52:17.815-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:52:17.814-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:52:17.832-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-04-17T08:52:17.843-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:52:17.843-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-17T08:52:17.852-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:52:17.852-0300] {dag.py:3452} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-04-17T08:52:17.871-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds

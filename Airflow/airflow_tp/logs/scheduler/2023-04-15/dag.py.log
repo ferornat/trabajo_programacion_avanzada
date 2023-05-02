@@ -1,0 +1,314 @@
+[2023-04-15T12:16:47.863-0300] {processor.py:153} INFO - Started process (PID=22800) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:16:47.863-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:16:47.864-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:16:47.864-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:16:47.870-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:16:47.869-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:16:47.870-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:16:47.885-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.023 seconds
+[2023-04-15T12:17:30.072-0300] {processor.py:153} INFO - Started process (PID=22898) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:17:30.081-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:17:30.082-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:30.082-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:17:30.092-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:30.092-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:17:30.092-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:17:30.114-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.044 seconds
+[2023-04-15T12:18:07.485-0300] {processor.py:153} INFO - Started process (PID=22983) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:07.493-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:18:07.494-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:07.494-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:07.508-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:07.508-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:18:07.509-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:07.526-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.042 seconds
+[2023-04-15T12:18:27.978-0300] {processor.py:153} INFO - Started process (PID=23043) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:27.979-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:18:27.979-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:27.979-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:27.986-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:27.985-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:18:27.986-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:18:28.006-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.031 seconds
+[2023-04-15T12:19:11.081-0300] {processor.py:153} INFO - Started process (PID=23145) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:11.088-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:19:11.089-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:11.089-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:11.103-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:11.103-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:19:11.104-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:11.121-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.044 seconds
+[2023-04-15T12:19:49.833-0300] {processor.py:153} INFO - Started process (PID=23229) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:49.842-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:19:49.843-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:49.843-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:49.857-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:49.856-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:19:49.857-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:19:49.874-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.043 seconds
+[2023-04-15T12:20:26.884-0300] {processor.py:153} INFO - Started process (PID=23298) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:26.892-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:20:26.892-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:26.892-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:26.903-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:26.902-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:20:26.903-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:26.920-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.038 seconds
+[2023-04-15T12:20:59.756-0300] {processor.py:153} INFO - Started process (PID=23360) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:59.764-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:20:59.765-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:59.765-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:59.780-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:59.779-0300] {dagbag.py:341} ERROR - Failed to import: /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py", line 43, in <module>
+    with TaskGroup(group_id="post_process") as post_process_group:
+  File "/home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/utils/task_group.py", line 122, in __init__
+    raise AirflowException("TaskGroup can only be used inside a dag")
+airflow.exceptions.AirflowException: TaskGroup can only be used inside a dag
+[2023-04-15T12:20:59.780-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:20:59.812-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.060 seconds
+[2023-04-15T12:21:34.269-0300] {processor.py:153} INFO - Started process (PID=23444) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:21:34.270-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:21:34.270-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:34.270-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:21:34.279-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:21:34.304-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:34.304-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:21:34.312-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:34.312-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:21:34.354-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.087 seconds
+[2023-04-15T12:22:17.754-0300] {processor.py:153} INFO - Started process (PID=23533) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:17.762-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:22:17.763-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:17.763-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:17.782-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:17.792-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:17.792-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:22:17.804-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:17.804-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:22:17.834-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.083 seconds
+[2023-04-15T12:22:59.117-0300] {processor.py:153} INFO - Started process (PID=23611) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:59.118-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:22:59.118-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:59.118-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:59.127-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:22:59.139-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:59.138-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:22:59.148-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:59.148-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:22:59.166-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.051 seconds
+[2023-04-15T12:23:36.605-0300] {processor.py:153} INFO - Started process (PID=23702) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:23:36.614-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:23:36.615-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:36.615-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:23:36.626-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:23:36.638-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:36.638-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:23:36.651-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:36.651-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:23:36.672-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.069 seconds
+[2023-04-15T12:24:13.974-0300] {processor.py:153} INFO - Started process (PID=23766) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:24:13.982-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:24:13.983-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:13.983-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:24:14.001-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:24:14.011-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:14.010-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:24:14.020-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:14.019-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:24:14.038-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.066 seconds
+[2023-04-15T12:25:02.066-0300] {processor.py:153} INFO - Started process (PID=23884) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:02.067-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:25:02.068-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:02.068-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:02.082-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:02.092-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:02.092-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:25:02.101-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:02.101-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:25:02.119-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.056 seconds
+[2023-04-15T12:25:44.546-0300] {processor.py:153} INFO - Started process (PID=24124) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:44.554-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:25:44.556-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:44.555-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:44.570-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:25:44.579-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:44.579-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:25:44.588-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:44.588-0300] {dag.py:3452} INFO - Setting next_dagrun for test to None, run_after=None
+[2023-04-15T12:25:44.628-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.087 seconds
+[2023-04-15T12:26:15.474-0300] {processor.py:153} INFO - Started process (PID=24200) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:26:15.474-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:26:15.474-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.474-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:26:15.483-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:26:15.558-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.557-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:test_con_jota
+[2023-04-15T12:26:15.572-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.571-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:test_con_jota
+[2023-04-15T12:26:15.585-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.585-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:test_con_jota
+[2023-04-15T12:26:15.586-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.585-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:26:15.594-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.594-0300] {dag.py:2726} INFO - Creating ORM DAG for test_con_jota
+[2023-04-15T12:26:15.598-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:15.598-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:26:15.624-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.152 seconds
+[2023-04-15T12:27:12.321-0300] {processor.py:153} INFO - Started process (PID=24374) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:12.329-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:27:12.330-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:12.330-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:12.351-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:12.360-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:12.360-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:27:12.369-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:12.369-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:27:12.389-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.071 seconds
+[2023-04-15T12:27:48.487-0300] {processor.py:153} INFO - Started process (PID=24446) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:48.496-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:27:48.497-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:48.497-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:48.516-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:27:48.525-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:48.525-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:27:48.534-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:48.534-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:27:48.551-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.067 seconds
+[2023-04-15T12:28:23.437-0300] {processor.py:153} INFO - Started process (PID=24510) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:23.445-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:28:23.446-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:23.446-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:23.458-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:23.468-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:23.467-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:28:23.477-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:23.477-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:28:23.492-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.057 seconds
+[2023-04-15T12:28:57.857-0300] {processor.py:153} INFO - Started process (PID=24594) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:57.865-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:28:57.866-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:57.866-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:57.885-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:28:57.895-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:57.894-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:28:57.904-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:57.903-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:28:57.920-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.066 seconds
+[2023-04-15T12:29:36.085-0300] {processor.py:153} INFO - Started process (PID=24655) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:29:36.086-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:29:36.087-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:36.087-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:29:36.096-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:29:36.106-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:36.106-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:29:36.114-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:36.114-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:29:36.132-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.048 seconds
+[2023-04-15T12:30:12.567-0300] {processor.py:153} INFO - Started process (PID=24720) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:12.568-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:30:12.569-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:12.569-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:12.586-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:12.596-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:12.596-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:30:12.604-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:12.604-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:30:12.621-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.056 seconds
+[2023-04-15T12:30:54.234-0300] {processor.py:153} INFO - Started process (PID=24802) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:54.243-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:30:54.244-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:54.243-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:54.255-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:30:54.265-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:54.265-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:30:54.273-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:54.273-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:30:54.291-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.059 seconds
+[2023-04-15T12:31:30.464-0300] {processor.py:153} INFO - Started process (PID=24865) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:31:30.473-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:31:30.474-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:30.473-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:31:30.485-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:31:30.494-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:30.494-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:31:30.503-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:30.503-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:31:30.519-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.058 seconds
+[2023-04-15T12:32:10.755-0300] {processor.py:153} INFO - Started process (PID=24928) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:10.763-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:32:10.764-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:10.764-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:10.781-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:10.791-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:10.791-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:32:10.799-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:10.799-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:32:10.874-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.121 seconds
+[2023-04-15T12:32:52.568-0300] {processor.py:153} INFO - Started process (PID=25004) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:52.576-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:32:52.577-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:52.577-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:52.596-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:32:52.606-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:52.606-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:32:52.671-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:52.671-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:32:52.692-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.126 seconds
+[2023-04-15T12:33:34.521-0300] {processor.py:153} INFO - Started process (PID=25101) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:33:34.524-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:33:34.525-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:34.525-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:33:34.540-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:33:34.550-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:34.550-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:33:34.617-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:34.617-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:33:34.640-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.123 seconds
+[2023-04-15T12:34:06.036-0300] {processor.py:153} INFO - Started process (PID=25158) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:06.044-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:34:06.046-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:06.045-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:06.064-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:06.074-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:06.074-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:34:06.138-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:06.138-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:34:06.164-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.131 seconds
+[2023-04-15T12:34:49.731-0300] {processor.py:153} INFO - Started process (PID=25235) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:49.739-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:34:49.741-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:49.740-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:49.752-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:34:49.817-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:49.817-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:34:49.825-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:49.825-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:34:49.859-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.129 seconds
+[2023-04-15T12:35:20.793-0300] {processor.py:153} INFO - Started process (PID=25292) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:20.794-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:35:20.794-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:20.794-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:20.862-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:20.870-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:20.870-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:35:20.878-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:20.878-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:35:20.896-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.105 seconds
+[2023-04-15T12:35:52.474-0300] {processor.py:153} INFO - Started process (PID=25361) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:52.482-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:35:52.482-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:52.482-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:52.562-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:35:52.571-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:52.571-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:35:52.580-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:52.580-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:35:52.612-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.141 seconds
+[2023-04-15T12:36:22.727-0300] {processor.py:153} INFO - Started process (PID=25416) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:36:22.735-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:36:22.736-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:22.736-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:36:22.755-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:36:22.765-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:22.765-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:36:22.775-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:22.775-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:36:22.793-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.069 seconds
+[2023-04-15T12:37:01.937-0300] {processor.py:153} INFO - Started process (PID=25575) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:01.945-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:37:01.946-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:01.946-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:01.963-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:01.973-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:01.973-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:37:01.983-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:01.983-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:37:02.000-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.067 seconds
+[2023-04-15T12:37:40.123-0300] {processor.py:153} INFO - Started process (PID=25670) to work on /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:40.131-0300] {processor.py:743} INFO - Processing file /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py for tasks to queue
+[2023-04-15T12:37:40.132-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:40.132-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:40.143-0300] {processor.py:753} INFO - DAG(s) dict_keys(['test_con_jota']) retrieved from /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py
+[2023-04-15T12:37:40.154-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:40.153-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:37:40.162-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:40.162-0300] {dag.py:3452} INFO - Setting next_dagrun for test_con_jota to None, run_after=None
+[2023-04-15T12:37:40.198-0300] {processor.py:175} INFO - Processing /home/pepino/Desktop/Maestría Udesa/Segundo Año/Programación Avanzada para grandes volúmenes de datos/airflow/dags/dag.py took 0.077 seconds

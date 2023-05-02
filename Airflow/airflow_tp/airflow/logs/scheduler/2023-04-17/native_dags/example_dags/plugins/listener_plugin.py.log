@@ -1,0 +1,5 @@
+[2023-04-17T08:50:31.128-0300] {processor.py:153} INFO - Started process (PID=80553) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-04-17T08:50:31.129-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2023-04-17T08:50:31.130-0300] {logging_mixin.py:137} INFO - [2023-04-17T08:50:31.130-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-04-17T08:50:31.132-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-04-17T08:50:31.138-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.014 seconds

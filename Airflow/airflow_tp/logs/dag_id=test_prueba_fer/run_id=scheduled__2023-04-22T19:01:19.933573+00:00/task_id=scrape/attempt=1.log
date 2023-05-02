@@ -1,0 +1,25 @@
+[2023-04-23T16:01:22.500-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_prueba_fer.scrape scheduled__2023-04-22T19:01:19.933573+00:00 [queued]>
+[2023-04-23T16:01:22.503-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_prueba_fer.scrape scheduled__2023-04-22T19:01:19.933573+00:00 [queued]>
+[2023-04-23T16:01:22.503-0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T16:01:22.504-0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-23T16:01:22.504-0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T16:01:22.518-0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): scrape> on 2023-04-22 19:01:19.933573+00:00
+[2023-04-23T16:01:22.519-0300] {standard_task_runner.py:55} INFO - Started process 11582 to run task
+[2023-04-23T16:01:22.521-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'test_prueba_fer', 'scrape', 'scheduled__2023-04-22T19:01:19.933573+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dag_prueba.py', '--cfg-path', '/tmp/tmp8tpjnv8l']
+[2023-04-23T16:01:22.521-0300] {standard_task_runner.py:83} INFO - Job 24: Subtask scrape
+[2023-04-23T16:01:22.561-0300] {task_command.py:389} INFO - Running <TaskInstance: test_prueba_fer.scrape scheduled__2023-04-22T19:01:19.933573+00:00 [running]> on host pepino-ThinkPad-E15-Gen-2
+[2023-04-23T16:01:22.655-0300] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=faornat@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_prueba_fer
+AIRFLOW_CTX_TASK_ID=scrape
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-22T19:01:19.933573+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-22T19:01:19.933573+00:00
+[2023-04-23T16:01:22.655-0300] {dag_prueba.py:24} INFO - performing scraping
+[2023-04-23T16:01:22.655-0300] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-23T16:01:22.657-0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=test_prueba_fer, task_id=scrape, execution_date=20230422T190119, start_date=20230423T190122, end_date=20230423T190122
+[2023-04-23T16:01:22.693-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-23T16:01:22.709-0300] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,620 @@
+[2023-04-15T10:33:55.104-0300] {processor.py:153} INFO - Started process (PID=12497) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:33:55.105-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:33:55.105-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.105-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:33:55.112-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:33:55.178-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.178-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-04-15T10:33:55.192-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.192-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-04-15T10:33:55.208-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.207-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2023-04-15T10:33:55.208-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.208-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:33:55.218-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.218-0300] {dag.py:2726} INFO - Creating ORM DAG for tutorial
+[2023-04-15T10:33:55.223-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:33:55.223-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:33:55.222981+00:00, run_after=2023-04-15T13:33:55.222981+00:00
+[2023-04-15T10:33:55.256-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.154 seconds
+[2023-04-15T10:34:36.520-0300] {processor.py:153} INFO - Started process (PID=12580) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:34:36.529-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:34:36.530-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:34:36.530-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:34:36.547-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:34:36.556-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:34:36.556-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:34:36.565-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:34:36.565-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:34:36.565519+00:00, run_after=2023-04-15T13:34:36.565519+00:00
+[2023-04-15T10:34:36.601-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2023-04-15T10:35:17.910-0300] {processor.py:153} INFO - Started process (PID=12687) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:17.912-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:35:17.912-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:17.912-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:17.925-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:17.936-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:17.936-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:35:17.945-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:17.945-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:35:17.944983+00:00, run_after=2023-04-15T13:35:17.944983+00:00
+[2023-04-15T10:35:17.962-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2023-04-15T10:35:58.027-0300] {processor.py:153} INFO - Started process (PID=12753) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:58.036-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:35:58.037-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:58.036-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:58.053-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:35:58.062-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:58.062-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:35:58.071-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:35:58.071-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:35:58.071061+00:00, run_after=2023-04-15T13:35:58.071061+00:00
+[2023-04-15T10:35:58.088-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2023-04-15T10:36:39.884-0300] {processor.py:153} INFO - Started process (PID=12826) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:36:39.892-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:36:39.893-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:36:39.893-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:36:39.910-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:36:39.919-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:36:39.919-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:36:39.928-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:36:39.928-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:36:39.928552+00:00, run_after=2023-04-15T13:36:39.928552+00:00
+[2023-04-15T10:36:39.957-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2023-04-15T10:37:24.519-0300] {processor.py:153} INFO - Started process (PID=12898) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:37:24.528-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:37:24.529-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:37:24.529-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:37:24.544-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:37:24.553-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:37:24.553-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:37:24.562-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:37:24.562-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:37:24.561946+00:00, run_after=2023-04-15T13:37:24.561946+00:00
+[2023-04-15T10:37:24.579-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T10:38:08.214-0300] {processor.py:153} INFO - Started process (PID=12975) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:08.223-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:38:08.224-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:08.224-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:08.234-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:08.244-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:08.243-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:38:08.252-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:08.252-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:38:08.252580+00:00, run_after=2023-04-15T13:38:08.252580+00:00
+[2023-04-15T10:38:08.270-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.057 seconds
+[2023-04-15T10:38:47.210-0300] {processor.py:153} INFO - Started process (PID=13078) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:47.218-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:38:47.219-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:47.219-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:47.236-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:38:47.245-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:47.245-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:38:47.253-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:38:47.253-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:38:47.253786+00:00, run_after=2023-04-15T13:38:47.253786+00:00
+[2023-04-15T10:38:47.272-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2023-04-15T10:39:33.062-0300] {processor.py:153} INFO - Started process (PID=13155) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:39:33.070-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:39:33.071-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:39:33.071-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:39:33.088-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:39:33.097-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:39:33.097-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:39:33.106-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:39:33.106-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:39:33.106390+00:00, run_after=2023-04-15T13:39:33.106390+00:00
+[2023-04-15T10:39:33.125-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2023-04-15T10:40:14.751-0300] {processor.py:153} INFO - Started process (PID=13252) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:40:14.752-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:40:14.752-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:40:14.752-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:40:14.766-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:40:14.775-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:40:14.775-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:40:14.784-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:40:14.784-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:40:14.783875+00:00, run_after=2023-04-15T13:40:14.783875+00:00
+[2023-04-15T10:40:14.813-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2023-04-15T10:41:00.541-0300] {processor.py:153} INFO - Started process (PID=13375) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:00.549-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:41:00.550-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:00.550-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:00.566-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:00.575-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:00.575-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:41:00.584-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:00.584-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:41:00.584367+00:00, run_after=2023-04-15T13:41:00.584367+00:00
+[2023-04-15T10:41:00.602-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T10:41:44.729-0300] {processor.py:153} INFO - Started process (PID=13482) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:44.737-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:41:44.738-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:44.738-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:44.755-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:41:44.764-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:44.764-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:41:44.773-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:41:44.773-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:41:44.773236+00:00, run_after=2023-04-15T13:41:44.773236+00:00
+[2023-04-15T10:41:44.812-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2023-04-15T10:42:28.782-0300] {processor.py:153} INFO - Started process (PID=13600) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:42:28.790-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:42:28.791-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:42:28.791-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:42:28.806-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:42:28.817-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:42:28.817-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:42:28.826-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:42:28.826-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:42:28.826087+00:00, run_after=2023-04-15T13:42:28.826087+00:00
+[2023-04-15T10:42:28.855-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2023-04-15T10:43:13.658-0300] {processor.py:153} INFO - Started process (PID=13765) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:13.660-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:43:13.661-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:13.661-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:13.673-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:13.682-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:13.682-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:43:13.691-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:13.691-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:43:13.691287+00:00, run_after=2023-04-15T13:43:13.691287+00:00
+[2023-04-15T10:43:13.709-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2023-04-15T10:43:56.545-0300] {processor.py:153} INFO - Started process (PID=13928) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:56.554-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:43:56.555-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:56.555-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:56.570-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:43:56.579-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:56.579-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:43:56.588-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:43:56.588-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:43:56.588411+00:00, run_after=2023-04-15T13:43:56.588411+00:00
+[2023-04-15T10:43:56.607-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T10:44:41.276-0300] {processor.py:153} INFO - Started process (PID=14055) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:44:41.285-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:44:41.286-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:44:41.286-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:44:41.300-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:44:41.311-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:44:41.311-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:44:41.323-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:44:41.323-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:44:41.323137+00:00, run_after=2023-04-15T13:44:41.323137+00:00
+[2023-04-15T10:44:41.341-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2023-04-15T10:45:25.490-0300] {processor.py:153} INFO - Started process (PID=14181) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:45:25.498-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:45:25.499-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:45:25.499-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:45:25.515-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:45:25.525-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:45:25.524-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:45:25.533-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:45:25.533-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:45:25.533782+00:00, run_after=2023-04-15T13:45:25.533782+00:00
+[2023-04-15T10:45:25.552-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2023-04-15T10:46:09.188-0300] {processor.py:153} INFO - Started process (PID=14256) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:09.196-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:46:09.197-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:09.197-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:09.212-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:09.222-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:09.222-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:46:09.231-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:09.231-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:46:09.231492+00:00, run_after=2023-04-15T13:46:09.231492+00:00
+[2023-04-15T10:46:09.253-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2023-04-15T10:46:56.524-0300] {processor.py:153} INFO - Started process (PID=14391) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:56.525-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:46:56.525-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:56.525-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:56.532-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:46:56.540-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:56.540-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:46:56.549-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:46:56.549-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:46:56.549188+00:00, run_after=2023-04-15T13:46:56.549188+00:00
+[2023-04-15T10:46:56.566-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-04-15T10:47:42.334-0300] {processor.py:153} INFO - Started process (PID=14487) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:47:42.343-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:47:42.344-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:47:42.344-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:47:42.358-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:47:42.367-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:47:42.367-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:47:42.376-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:47:42.376-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:47:42.376519+00:00, run_after=2023-04-15T13:47:42.376519+00:00
+[2023-04-15T10:47:42.394-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-04-15T10:48:30.517-0300] {processor.py:153} INFO - Started process (PID=14568) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:48:30.525-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:48:30.526-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:48:30.526-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:48:30.542-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:48:30.551-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:48:30.551-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:48:30.560-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:48:30.560-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:48:30.560441+00:00, run_after=2023-04-15T13:48:30.560441+00:00
+[2023-04-15T10:48:30.638-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2023-04-15T10:49:19.306-0300] {processor.py:153} INFO - Started process (PID=14681) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:49:19.314-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:49:19.315-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:49:19.315-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:49:19.331-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:49:19.340-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:49:19.340-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:49:19.402-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:49:19.402-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:49:19.402375+00:00, run_after=2023-04-15T13:49:19.402375+00:00
+[2023-04-15T10:49:19.447-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.144 seconds
+[2023-04-15T10:50:01.319-0300] {processor.py:153} INFO - Started process (PID=14782) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:01.327-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:50:01.328-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:01.328-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:01.344-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:01.353-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:01.353-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:50:01.414-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:01.414-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:50:01.414027+00:00, run_after=2023-04-15T13:50:01.414027+00:00
+[2023-04-15T10:50:01.456-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds
+[2023-04-15T10:50:54.892-0300] {processor.py:153} INFO - Started process (PID=14872) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:54.901-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T10:50:54.902-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:54.901-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:54.918-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T10:50:54.980-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:54.979-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T10:50:54.988-0300] {logging_mixin.py:137} INFO - [2023-04-15T10:50:54.987-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T13:50:54.987842+00:00, run_after=2023-04-15T13:50:54.987842+00:00
+[2023-04-15T10:50:55.016-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.127 seconds
+[2023-04-15T11:15:53.826-0300] {processor.py:153} INFO - Started process (PID=15119) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:15:53.834-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:15:53.835-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:15:53.835-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:15:53.852-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:15:53.861-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:15:53.861-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:15:53.869-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:15:53.869-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:15:53.869525+00:00, run_after=2023-04-15T14:15:53.869525+00:00
+[2023-04-15T11:15:53.894-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2023-04-15T11:16:42.317-0300] {processor.py:153} INFO - Started process (PID=15258) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:16:42.326-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:16:42.327-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:16:42.326-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:16:42.343-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:16:42.352-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:16:42.352-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:16:42.361-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:16:42.361-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:16:42.360894+00:00, run_after=2023-04-15T14:16:42.360894+00:00
+[2023-04-15T11:16:42.395-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2023-04-15T11:17:33.233-0300] {processor.py:153} INFO - Started process (PID=15438) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:17:33.234-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:17:33.234-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:17:33.234-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:17:33.241-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:17:33.250-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:17:33.250-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:17:33.314-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:17:33.314-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:17:33.314227+00:00, run_after=2023-04-15T14:17:33.314227+00:00
+[2023-04-15T11:17:33.343-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2023-04-15T11:18:13.974-0300] {processor.py:153} INFO - Started process (PID=15561) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:13.982-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:18:13.983-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:13.983-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:14.000-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:14.009-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:14.009-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:18:14.071-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:14.071-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:18:14.071345+00:00, run_after=2023-04-15T14:18:14.071345+00:00
+[2023-04-15T11:18:14.088-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2023-04-15T11:18:57.347-0300] {processor.py:153} INFO - Started process (PID=15666) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:57.356-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:18:57.357-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:57.357-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:57.372-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:18:57.434-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:57.434-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:18:57.442-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:18:57.442-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:18:57.442753+00:00, run_after=2023-04-15T14:18:57.442753+00:00
+[2023-04-15T11:18:57.470-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.124 seconds
+[2023-04-15T11:19:50.586-0300] {processor.py:153} INFO - Started process (PID=15828) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:19:50.595-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:19:50.596-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:19:50.596-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:19:50.612-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:19:50.682-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:19:50.682-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:19:50.691-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:19:50.691-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:19:50.691479+00:00, run_after=2023-04-15T14:19:50.691479+00:00
+[2023-04-15T11:19:50.715-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.131 seconds
+[2023-04-15T11:20:32.790-0300] {processor.py:153} INFO - Started process (PID=15924) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:20:32.798-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:20:32.799-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:20:32.799-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:20:32.815-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:20:32.825-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:20:32.824-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:20:32.833-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:20:32.833-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:20:32.833490+00:00, run_after=2023-04-15T14:20:32.833490+00:00
+[2023-04-15T11:20:32.850-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2023-04-15T11:21:22.574-0300] {processor.py:153} INFO - Started process (PID=16023) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:21:22.575-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:21:22.576-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:21:22.576-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:21:22.587-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:21:22.597-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:21:22.596-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:21:22.606-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:21:22.606-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:21:22.605655+00:00, run_after=2023-04-15T14:21:22.605655+00:00
+[2023-04-15T11:21:22.683-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2023-04-15T11:22:04.648-0300] {processor.py:153} INFO - Started process (PID=16110) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:04.656-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:22:04.657-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:04.657-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:04.667-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:04.678-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:04.678-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:22:04.744-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:04.744-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:22:04.744373+00:00, run_after=2023-04-15T14:22:04.744373+00:00
+[2023-04-15T11:22:04.761-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2023-04-15T11:22:47.945-0300] {processor.py:153} INFO - Started process (PID=16194) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:47.953-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:22:47.954-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:47.954-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:47.970-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:22:47.980-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:47.980-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:22:48.041-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:22:48.041-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:22:48.041797+00:00, run_after=2023-04-15T14:22:48.041797+00:00
+[2023-04-15T11:22:48.059-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2023-04-15T11:23:39.580-0300] {processor.py:153} INFO - Started process (PID=16352) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:23:39.588-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:23:39.589-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:23:39.589-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:23:39.604-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:23:39.669-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:23:39.669-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:23:39.677-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:23:39.677-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:23:39.677155+00:00, run_after=2023-04-15T14:23:39.677155+00:00
+[2023-04-15T11:23:39.707-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.130 seconds
+[2023-04-15T11:24:19.860-0300] {processor.py:153} INFO - Started process (PID=16467) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:24:19.861-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:24:19.861-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:24:19.861-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:24:19.870-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:24:19.932-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:24:19.931-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:24:19.939-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:24:19.939-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:24:19.939566+00:00, run_after=2023-04-15T14:24:19.939566+00:00
+[2023-04-15T11:24:19.956-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2023-04-15T11:25:03.465-0300] {processor.py:153} INFO - Started process (PID=16571) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:03.466-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:25:03.466-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:03.466-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:03.472-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:03.482-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:03.482-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:25:03.492-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:03.491-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:25:03.491795+00:00, run_after=2023-04-15T14:25:03.491795+00:00
+[2023-04-15T11:25:03.509-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2023-04-15T11:25:45.671-0300] {processor.py:153} INFO - Started process (PID=16648) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:45.679-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:25:45.680-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:45.680-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:45.695-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:25:45.705-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:45.705-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:25:45.714-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:25:45.714-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:25:45.714173+00:00, run_after=2023-04-15T14:25:45.714173+00:00
+[2023-04-15T11:25:45.821-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.152 seconds
+[2023-04-15T11:26:27.634-0300] {processor.py:153} INFO - Started process (PID=16927) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:26:27.642-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:26:27.643-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:26:27.643-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:26:27.659-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:26:27.668-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:26:27.668-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:26:27.731-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:26:27.731-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:26:27.731199+00:00, run_after=2023-04-15T14:26:27.731199+00:00
+[2023-04-15T11:26:27.750-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2023-04-15T11:27:11.200-0300] {processor.py:153} INFO - Started process (PID=17006) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:11.208-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:27:11.209-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:11.209-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:11.225-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:11.235-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:11.235-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:27:11.300-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:11.300-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:27:11.300141+00:00, run_after=2023-04-15T14:27:11.300141+00:00
+[2023-04-15T11:27:11.318-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2023-04-15T11:27:54.425-0300] {processor.py:153} INFO - Started process (PID=17086) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:54.426-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:27:54.427-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:54.426-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:54.437-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:27:54.502-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:54.502-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:27:54.511-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:27:54.511-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:27:54.511120+00:00, run_after=2023-04-15T14:27:54.511120+00:00
+[2023-04-15T11:27:54.528-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2023-04-15T11:28:39.438-0300] {processor.py:153} INFO - Started process (PID=17230) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:28:39.447-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:28:39.448-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:28:39.448-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:28:39.518-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:28:39.526-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:28:39.526-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:28:39.533-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:28:39.533-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:28:39.533684+00:00, run_after=2023-04-15T14:28:39.533684+00:00
+[2023-04-15T11:28:39.550-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2023-04-15T11:29:18.189-0300] {processor.py:153} INFO - Started process (PID=17485) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:18.198-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:29:18.199-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:18.199-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:18.270-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:18.277-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:18.277-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:29:18.285-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:18.285-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:29:18.284922+00:00, run_after=2023-04-15T14:29:18.284922+00:00
+[2023-04-15T11:29:18.302-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2023-04-15T11:29:57.309-0300] {processor.py:153} INFO - Started process (PID=17597) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:57.317-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:29:57.318-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:57.318-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:57.328-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:29:57.338-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:57.338-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:29:57.348-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:29:57.348-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:29:57.347894+00:00, run_after=2023-04-15T14:29:57.347894+00:00
+[2023-04-15T11:29:57.365-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.057 seconds
+[2023-04-15T11:30:43.766-0300] {processor.py:153} INFO - Started process (PID=17721) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:30:43.774-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:30:43.775-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:30:43.775-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:30:43.791-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:30:43.800-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:30:43.800-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:30:43.809-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:30:43.809-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:30:43.809392+00:00, run_after=2023-04-15T14:30:43.809392+00:00
+[2023-04-15T11:30:43.827-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2023-04-15T11:31:32.490-0300] {processor.py:153} INFO - Started process (PID=17805) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:31:32.493-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:31:32.494-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:31:32.493-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:31:32.507-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:31:32.516-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:31:32.516-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:31:32.525-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:31:32.525-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:31:32.525359+00:00, run_after=2023-04-15T14:31:32.525359+00:00
+[2023-04-15T11:31:32.543-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2023-04-15T11:32:22.039-0300] {processor.py:153} INFO - Started process (PID=17916) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:32:22.048-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:32:22.049-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:32:22.049-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:32:22.059-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:32:22.067-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:32:22.067-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:32:22.076-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:32:22.076-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:32:22.076160+00:00, run_after=2023-04-15T14:32:22.076160+00:00
+[2023-04-15T11:32:22.093-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2023-04-15T11:33:10.603-0300] {processor.py:153} INFO - Started process (PID=18009) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:10.604-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:33:10.604-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:10.604-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:10.614-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:10.623-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:10.623-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:33:10.631-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:10.631-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:33:10.631808+00:00, run_after=2023-04-15T14:33:10.631808+00:00
+[2023-04-15T11:33:10.649-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2023-04-15T11:33:54.061-0300] {processor.py:153} INFO - Started process (PID=18125) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:54.069-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:33:54.070-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:54.070-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:54.087-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:33:54.096-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:54.096-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:33:54.105-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:33:54.105-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:33:54.105363+00:00, run_after=2023-04-15T14:33:54.105363+00:00
+[2023-04-15T11:33:54.122-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T11:34:41.487-0300] {processor.py:153} INFO - Started process (PID=18212) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:34:41.495-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:34:41.496-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:34:41.496-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:34:41.512-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:34:41.521-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:34:41.521-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:34:41.530-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:34:41.530-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:34:41.530526+00:00, run_after=2023-04-15T14:34:41.530526+00:00
+[2023-04-15T11:34:41.550-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2023-04-15T11:35:26.050-0300] {processor.py:153} INFO - Started process (PID=18334) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:35:26.059-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:35:26.060-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:35:26.060-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:35:26.076-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:35:26.086-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:35:26.086-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:35:26.094-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:35:26.094-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:35:26.094776+00:00, run_after=2023-04-15T14:35:26.094776+00:00
+[2023-04-15T11:35:26.110-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2023-04-15T11:36:12.572-0300] {processor.py:153} INFO - Started process (PID=18430) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:12.581-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:36:12.582-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:12.582-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:12.592-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:12.601-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:12.601-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:36:12.610-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:12.610-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:36:12.610497+00:00, run_after=2023-04-15T14:36:12.610497+00:00
+[2023-04-15T11:36:12.631-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-04-15T11:36:56.968-0300] {processor.py:153} INFO - Started process (PID=18522) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:56.977-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:36:56.978-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:56.977-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:56.993-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:36:57.002-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:57.002-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:36:57.011-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:36:57.011-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:36:57.011270+00:00, run_after=2023-04-15T14:36:57.011270+00:00
+[2023-04-15T11:36:57.047-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2023-04-15T11:37:44.217-0300] {processor.py:153} INFO - Started process (PID=18627) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:37:44.225-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:37:44.226-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:37:44.226-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:37:44.242-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:37:44.251-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:37:44.251-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:37:44.260-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:37:44.260-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:37:44.260163+00:00, run_after=2023-04-15T14:37:44.260163+00:00
+[2023-04-15T11:37:44.287-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2023-04-15T11:38:25.745-0300] {processor.py:153} INFO - Started process (PID=18709) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:38:25.753-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:38:25.754-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:38:25.753-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:38:25.770-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:38:25.779-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:38:25.779-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:38:25.788-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:38:25.788-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:38:25.788175+00:00, run_after=2023-04-15T14:38:25.788175+00:00
+[2023-04-15T11:38:25.804-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-04-15T11:39:13.502-0300] {processor.py:153} INFO - Started process (PID=18838) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:13.510-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:39:13.511-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:13.511-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:13.526-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:13.535-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:13.535-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:39:13.544-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:13.544-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:39:13.544596+00:00, run_after=2023-04-15T14:39:13.544596+00:00
+[2023-04-15T11:39:13.561-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2023-04-15T11:39:53.424-0300] {processor.py:153} INFO - Started process (PID=18950) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:53.425-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:39:53.425-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:53.425-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:53.432-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:39:53.441-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:53.441-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:39:53.450-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:39:53.450-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:39:53.449966+00:00, run_after=2023-04-15T14:39:53.449966+00:00
+[2023-04-15T11:39:53.467-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2023-04-15T11:40:44.629-0300] {processor.py:153} INFO - Started process (PID=19049) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:40:44.638-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:40:44.639-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:40:44.638-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:40:44.648-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:40:44.657-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:40:44.657-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:40:44.666-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:40:44.666-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:40:44.666342+00:00, run_after=2023-04-15T14:40:44.666342+00:00
+[2023-04-15T11:40:44.683-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2023-04-15T11:41:27.208-0300] {processor.py:153} INFO - Started process (PID=19128) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:41:27.217-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:41:27.218-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:41:27.218-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:41:27.234-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:41:27.243-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:41:27.243-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:41:27.252-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:41:27.252-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:41:27.252104+00:00, run_after=2023-04-15T14:41:27.252104+00:00
+[2023-04-15T11:41:27.270-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T11:42:13.887-0300] {processor.py:153} INFO - Started process (PID=19252) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:13.896-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:42:13.897-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:13.897-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:13.919-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:13.934-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:13.934-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:42:13.944-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:13.944-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:42:13.943982+00:00, run_after=2023-04-15T14:42:13.943982+00:00
+[2023-04-15T11:42:13.965-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2023-04-15T11:42:56.422-0300] {processor.py:153} INFO - Started process (PID=19421) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:56.424-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:42:56.424-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:56.424-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:56.437-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:42:56.446-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:56.446-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:42:56.455-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:42:56.455-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:42:56.455699+00:00, run_after=2023-04-15T14:42:56.455699+00:00
+[2023-04-15T11:42:56.489-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2023-04-15T11:43:45.785-0300] {processor.py:153} INFO - Started process (PID=19575) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:43:45.793-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T11:43:45.794-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:43:45.794-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:43:45.809-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T11:43:45.819-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:43:45.819-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T11:43:45.828-0300] {logging_mixin.py:137} INFO - [2023-04-15T11:43:45.828-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T14:43:45.828569+00:00, run_after=2023-04-15T14:43:45.828569+00:00
+[2023-04-15T11:43:45.847-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T12:17:17.913-0300] {processor.py:153} INFO - Started process (PID=22876) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:17.921-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:17:17.922-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:17.922-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:17.934-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:17.943-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:17.943-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:17:17.952-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:17.952-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:17:17.951894+00:00, run_after=2023-04-15T15:17:17.951894+00:00
+[2023-04-15T12:17:17.971-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2023-04-15T12:17:59.889-0300] {processor.py:153} INFO - Started process (PID=22967) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:59.897-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:17:59.899-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:59.898-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:59.911-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:17:59.921-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:59.920-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:17:59.929-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:17:59.929-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:17:59.929728+00:00, run_after=2023-04-15T15:17:59.929728+00:00
+[2023-04-15T12:17:59.947-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2023-04-15T12:18:58.119-0300] {processor.py:153} INFO - Started process (PID=23124) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:18:58.120-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:18:58.121-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:58.121-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:18:58.132-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:18:58.141-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:58.141-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:18:58.150-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:18:58.150-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:18:58.149924+00:00, run_after=2023-04-15T15:18:58.149924+00:00
+[2023-04-15T12:18:58.166-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2023-04-15T12:19:40.685-0300] {processor.py:153} INFO - Started process (PID=23209) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:19:40.693-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:19:40.694-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:40.694-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:19:40.708-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:19:40.718-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:40.718-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:19:40.726-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:19:40.726-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:19:40.726482+00:00, run_after=2023-04-15T15:19:40.726482+00:00
+[2023-04-15T12:19:40.743-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2023-04-15T12:20:21.755-0300] {processor.py:153} INFO - Started process (PID=23291) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:20:21.755-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:20:21.757-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:21.757-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:20:21.766-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:20:21.778-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:21.778-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:20:21.788-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:20:21.788-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:20:21.788272+00:00, run_after=2023-04-15T15:20:21.788272+00:00
+[2023-04-15T12:20:21.809-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-04-15T12:21:07.999-0300] {processor.py:153} INFO - Started process (PID=23375) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:21:08.008-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:21:08.009-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:08.009-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:21:08.028-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:21:08.039-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:08.039-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:21:08.051-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:21:08.051-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:21:08.050931+00:00, run_after=2023-04-15T15:21:08.050931+00:00
+[2023-04-15T12:21:08.075-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2023-04-15T12:22:03.472-0300] {processor.py:153} INFO - Started process (PID=23504) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:03.473-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:22:03.473-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:03.473-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:03.486-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:03.496-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:03.495-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:22:03.505-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:03.505-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:22:03.505470+00:00, run_after=2023-04-15T15:22:03.505470+00:00
+[2023-04-15T12:22:03.526-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2023-04-15T12:22:47.418-0300] {processor.py:153} INFO - Started process (PID=23589) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:47.426-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:22:47.427-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:47.426-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:47.434-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:22:47.448-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:47.448-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:22:47.461-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:22:47.461-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:22:47.461260+00:00, run_after=2023-04-15T15:22:47.461260+00:00
+[2023-04-15T12:22:47.505-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2023-04-15T12:23:29.144-0300] {processor.py:153} INFO - Started process (PID=23667) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:23:29.152-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:23:29.153-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:29.153-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:23:29.163-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:23:29.173-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:29.173-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:23:29.184-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:23:29.184-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:23:29.184217+00:00, run_after=2023-04-15T15:23:29.184217+00:00
+[2023-04-15T12:23:29.216-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2023-04-15T12:24:11.696-0300] {processor.py:153} INFO - Started process (PID=23764) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:24:11.697-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:24:11.697-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:11.697-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:24:11.708-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:24:11.725-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:11.724-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:24:11.746-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:24:11.746-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:24:11.746295+00:00, run_after=2023-04-15T15:24:11.746295+00:00
+[2023-04-15T12:24:11.774-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2023-04-15T12:25:17.438-0300] {processor.py:153} INFO - Started process (PID=23926) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:25:17.446-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:25:17.447-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:17.447-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:25:17.462-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:25:17.472-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:17.471-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:25:17.481-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:25:17.481-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:25:17.481229+00:00, run_after=2023-04-15T15:25:17.481229+00:00
+[2023-04-15T12:25:17.526-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2023-04-15T12:26:45.614-0300] {processor.py:153} INFO - Started process (PID=24259) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:26:45.623-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:26:45.624-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:45.624-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:26:45.640-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:26:45.649-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:45.649-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:26:45.661-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:26:45.660-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:26:45.660746+00:00, run_after=2023-04-15T15:26:45.660746+00:00
+[2023-04-15T12:26:45.684-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2023-04-15T12:27:40.378-0300] {processor.py:153} INFO - Started process (PID=24429) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:27:40.379-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:27:40.379-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:40.379-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:27:40.386-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:27:40.394-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:40.394-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:27:40.403-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:27:40.403-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:27:40.403476+00:00, run_after=2023-04-15T15:27:40.403476+00:00
+[2023-04-15T12:27:40.424-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2023-04-15T12:28:22.074-0300] {processor.py:153} INFO - Started process (PID=24507) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:28:22.082-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:28:22.083-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:22.083-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:28:22.099-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:28:22.108-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:22.108-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:28:22.118-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:28:22.117-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:28:22.117834+00:00, run_after=2023-04-15T15:28:22.117834+00:00
+[2023-04-15T12:28:22.136-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2023-04-15T12:29:08.761-0300] {processor.py:153} INFO - Started process (PID=24611) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:08.769-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:29:08.770-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:08.770-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:08.786-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:08.795-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:08.794-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:29:08.804-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:08.804-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:29:08.804087+00:00, run_after=2023-04-15T15:29:08.804087+00:00
+[2023-04-15T12:29:08.821-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2023-04-15T12:29:57.622-0300] {processor.py:153} INFO - Started process (PID=24694) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:57.630-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:29:57.631-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:57.631-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:57.648-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:29:57.657-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:57.657-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:29:57.666-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:29:57.666-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:29:57.665969+00:00, run_after=2023-04-15T15:29:57.665969+00:00
+[2023-04-15T12:29:57.683-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2023-04-15T12:30:48.030-0300] {processor.py:153} INFO - Started process (PID=24791) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:30:48.039-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:30:48.040-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:48.039-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:30:48.056-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:30:48.065-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:48.065-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:30:48.074-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:30:48.074-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:30:48.074087+00:00, run_after=2023-04-15T15:30:48.074087+00:00
+[2023-04-15T12:30:48.100-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2023-04-15T12:31:29.331-0300] {processor.py:153} INFO - Started process (PID=24858) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:31:29.339-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:31:29.340-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:29.340-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:31:29.355-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:31:29.364-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:29.364-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:31:29.373-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:31:29.373-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:31:29.373432+00:00, run_after=2023-04-15T15:31:29.373432+00:00
+[2023-04-15T12:31:29.423-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2023-04-15T12:32:18.578-0300] {processor.py:153} INFO - Started process (PID=24947) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:32:18.587-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:32:18.588-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:18.587-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:32:18.604-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:32:18.613-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:18.613-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:32:18.622-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:32:18.622-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:32:18.621887+00:00, run_after=2023-04-15T15:32:18.621887+00:00
+[2023-04-15T12:32:18.696-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2023-04-15T12:33:00.294-0300] {processor.py:153} INFO - Started process (PID=25018) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:00.303-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:33:00.303-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:00.303-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:00.320-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:00.329-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:00.329-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:33:00.396-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:00.396-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:33:00.396744+00:00, run_after=2023-04-15T15:33:00.396744+00:00
+[2023-04-15T12:33:00.415-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.123 seconds
+[2023-04-15T12:33:43.518-0300] {processor.py:153} INFO - Started process (PID=25117) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:43.519-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:33:43.519-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:43.519-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:43.526-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:33:43.535-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:43.535-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:33:43.599-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:33:43.599-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:33:43.599595+00:00, run_after=2023-04-15T15:33:43.599595+00:00
+[2023-04-15T12:33:43.617-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.100 seconds
+[2023-04-15T12:34:28.017-0300] {processor.py:153} INFO - Started process (PID=25192) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:34:28.025-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:34:28.026-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:28.026-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:34:28.042-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:34:28.108-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:28.107-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:34:28.115-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:34:28.115-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:34:28.115796+00:00, run_after=2023-04-15T15:34:28.115796+00:00
+[2023-04-15T12:34:28.133-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2023-04-15T12:35:12.371-0300] {processor.py:153} INFO - Started process (PID=25275) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:35:12.379-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:35:12.380-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:12.380-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:35:12.390-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:35:12.458-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:12.458-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:35:12.466-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:12.466-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:35:12.466228+00:00, run_after=2023-04-15T15:35:12.466228+00:00
+[2023-04-15T12:35:12.494-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2023-04-15T12:35:59.927-0300] {processor.py:153} INFO - Started process (PID=25376) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:35:59.935-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:35:59.936-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:35:59.936-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:36:00.011-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:36:00.019-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:00.019-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:36:00.027-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:00.027-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:36:00.027428+00:00, run_after=2023-04-15T15:36:00.027428+00:00
+[2023-04-15T12:36:00.046-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2023-04-15T12:36:42.042-0300] {processor.py:153} INFO - Started process (PID=25531) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:36:42.043-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:36:42.043-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:42.043-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:36:42.054-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:36:42.063-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:42.063-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:36:42.073-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:36:42.073-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:36:42.073032+00:00, run_after=2023-04-15T15:36:42.073032+00:00
+[2023-04-15T12:36:42.113-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2023-04-15T12:37:24.627-0300] {processor.py:153} INFO - Started process (PID=25618) to work on /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:37:24.635-0300] {processor.py:743} INFO - Processing file /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-04-15T12:37:24.636-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:24.636-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:37:24.652-0300] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-04-15T12:37:24.661-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:24.661-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-15T12:37:24.671-0300] {logging_mixin.py:137} INFO - [2023-04-15T12:37:24.670-0300] {dag.py:3452} INFO - Setting next_dagrun for tutorial to 2023-04-14T15:37:24.670872+00:00, run_after=2023-04-15T15:37:24.670872+00:00
+[2023-04-15T12:37:24.688-0300] {processor.py:175} INFO - Processing /home/pepino/.virtualenvs/apache_airflow/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds

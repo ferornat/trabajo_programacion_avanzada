@@ -1,0 +1,23 @@
+[2023-04-23T20:02:28.461-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: trabajo_practico.DBWriting manual__2023-04-23T23:02:21.582255+00:00 [queued]>
+[2023-04-23T20:02:28.465-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: trabajo_practico.DBWriting manual__2023-04-23T23:02:21.582255+00:00 [queued]>
+[2023-04-23T20:02:28.465-0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T20:02:28.465-0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-23T20:02:28.465-0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-23T20:02:28.480-0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): DBWriting> on 2023-04-23 23:02:21.582255+00:00
+[2023-04-23T20:02:28.484-0300] {standard_task_runner.py:55} INFO - Started process 42385 to run task
+[2023-04-23T20:02:28.486-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'trabajo_practico', 'DBWriting', 'manual__2023-04-23T23:02:21.582255+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/dag_tp.py', '--cfg-path', '/tmp/tmp2xb2qnmw']
+[2023-04-23T20:02:28.486-0300] {standard_task_runner.py:83} INFO - Job 110: Subtask DBWriting
+[2023-04-23T20:02:28.527-0300] {task_command.py:389} INFO - Running <TaskInstance: trabajo_practico.DBWriting manual__2023-04-23T23:02:21.582255+00:00 [running]> on host pepino-ThinkPad-E15-Gen-2
+[2023-04-23T20:02:28.658-0300] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=trabajo_practico
+AIRFLOW_CTX_TASK_ID=DBWriting
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-23T23:02:21.582255+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-23T23:02:21.582255+00:00
+[2023-04-23T20:02:28.669-0300] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-23T20:02:28.671-0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=trabajo_practico, task_id=DBWriting, execution_date=20230423T230221, start_date=20230423T230228, end_date=20230423T230228
+[2023-04-23T20:02:28.698-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-23T20:02:28.710-0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
