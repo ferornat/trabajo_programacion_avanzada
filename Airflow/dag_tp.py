@@ -131,7 +131,7 @@ def DBWriting(**kwargs):
     resultados_top_ctr = resultados_top_ctr.values.tolist()
 
     # Guardamos la data para el modelo de TopCTR
-    query_creacion_tabla_top_ctr = 'CREATE TABLE IF NOT EXISTS resultados_top_ctr ( log TIMESTAMP, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
+    query_creacion_tabla_top_ctr = 'CREATE TABLE IF NOT EXISTS resultados_top_ctr ( log DATE, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
     cursor.execute(query_creacion_tabla_top_ctr)
     
     query_resultados_tabla_top_ctr = 'INSERT INTO resultados_top_ctr VALUES (%s, %s, %s)'
@@ -145,7 +145,7 @@ def DBWriting(**kwargs):
     resultados_top_product = resultados_top_product.values.tolist()
     
     # Guardamos al data filtrada
-    query_creacion_tabla_top_product = 'CREATE TABLE IF NOT EXISTS resultados_top_product ( log TIMESTAMP, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
+    query_creacion_tabla_top_product = 'CREATE TABLE IF NOT EXISTS resultados_top_product ( log DATE, advertiser_id VARCHAR(50), product_id VARCHAR(50) )'
     cursor.execute(query_creacion_tabla_top_product)
 
     query_resultados_tabla_top_product = 'INSERT INTO resultados_top_product VALUES (%s, %s, %s)'
