@@ -141,16 +141,16 @@ def root():
 
 	# Resultados
 	return {"Porcentaje de coincidencia promedio entre modelos": np.round(porcen_agroup['percen'].mean(),2),
-	 		"5 Advertisers con mayor coincidencia promedio": adv_con_mayor_coincidencia,
-			"5 Advertisers con variabilidad promedio de recomendaciones": adv_con_mayor_variabilidad,
-			"Cantidad de productos recomendados exclusivamente para TopCTR": len(exclusivos_top_ctr),
-			"Productos exclusivos de TopCTR": exclusivos_top_ctr,
-			"Cantidad de productos recomendados exclusivamente para TopProduct": len(exclusivos_top_product),
-			"Productos exclusivos de TopProduct": exclusivos_top_product,
-			"10 Productos más recomendados históricamente, independientemente del modelo": mas_repetidos_hist.to_dict(),
-			"10 Productos más recomendados en últimos 7 días, independientemente del modelo": mas_repetidos_ult_7dias.to_dict(),
-			"Productos que se recomendó más tiempo seguido con el modelo de TopCTR": producto_con_mas_dias_continuo_top_ctr,
-			"Productos que se recomendó más tiempo seguido con el modelo de TopProduct": producto_con_mas_dias_continuo_top_prod,}
+	 	"5 Advertisers con mayor coincidencia promedio": adv_con_mayor_coincidencia,
+		"5 Advertisers con mayor variabilidad promedio de recomendaciones": adv_con_mayor_variabilidad,
+		"Cantidad de productos recomendados exclusivamente para TopCTR": len(exclusivos_top_ctr),
+		"Productos exclusivos de TopCTR": exclusivos_top_ctr,
+		"Cantidad de productos recomendados exclusivamente para TopProduct": len(exclusivos_top_product),
+		"Productos exclusivos de TopProduct": exclusivos_top_product,
+		"10 Productos más recomendados históricamente, independientemente del modelo": mas_repetidos_hist.to_dict(),
+		"10 Productos más recomendados en últimos 7 días, independientemente del modelo": mas_repetidos_ult_7dias.to_dict(),
+		"Productos que se recomendó más tiempo seguido con el modelo de TopCTR": producto_con_mas_dias_continuo_top_ctr,
+		"Productos que se recomendó más tiempo seguido con el modelo de TopProduct": producto_con_mas_dias_continuo_top_prod}
 
 #/history/<ADV>/
 # Esta entrada devuelve un JSON con todas las recomendaciones para el
