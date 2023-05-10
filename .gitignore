@@ -6,3 +6,4 @@ __pycache__/
 ads_views.txt
 advertiser_ids.txt
 product_views.txt
+*.csv
